@@ -1,4 +1,5 @@
-GLGlyphs
-========
+#GLGyphs
+The Font Awesome for all your GLG needs.
 
-GLG icons
+#####To install:
+Exercise left to the developer
