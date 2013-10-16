@@ -1,0 +1,54 @@
+@FontPath:    "../fonts";
+
+@font-face {
+	font-family: 'GLG_Icons';
+	src:url('@{FontPath}/GLG_Icons.eot');
+	src:url('@{FontPath}/GLG_Icons.eot?#iefix') format('embedded-opentype'),
+		url('@{FontPath}/GLG_Icons.woff') format('woff'),
+		url('@{FontPath}/GLG_Icons.ttf') format('truetype'),
+		url('@{FontPath}/GLG_Icons.svg#GLG_Icons') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+	font-family: 'GLG_Icons';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="icon-"] {
+*/
+.icon-project, .icon-time, .icon-comment, .icon-recruit {
+	font-family: 'GLG_Icons';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.icon-project:before {
+	content: "\61";
+}
+.icon-time:before {
+	content: "\62";
+}
+.icon-comment:before {
+	content: "\63";
+}
+.icon-recruit:before {
+	content: "\64";
+}
