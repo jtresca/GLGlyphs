@@ -30,7 +30,7 @@ Instead of a list of all class selectors,
 you can use the generic selector below, but it's slower:
 [class*="icon-"] {
 */
-.icon-project, .icon-time, .icon-comment, .icon-recruit {
+.icon-action_arrow, .icon-recruit, .icon-comment, .icon-time, .icon-project {
 	font-family: 'GLG_Icons';
 	speak: none;
 	font-style: normal;
@@ -40,15 +40,20 @@ you can use the generic selector below, but it's slower:
 	line-height: 1;
 	-webkit-font-smoothing: antialiased;
 }
-.icon-project:before {
-	content: "\61";
-}
-.icon-time:before {
-	content: "\62";
-}
-.icon-comment:before {
-	content: "\63";
+
+.icon-action_arrow:before {
+	content: "\65";
 }
 .icon-recruit:before {
 	content: "\64";
 }
+.icon-comment:before {
+	content: "\63";
+}
+.icon-time:before {
+	content: "\62";
+}
+.icon-project:before {
+	content: "\61";
+}
+

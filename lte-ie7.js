@@ -6,18 +6,11 @@ window.onload = function() {
 		el.innerHTML = '<span style="font-family: \'GLG_Icons\'">' + entity + '</span>' + html;
 	}
 	var icons = {
-<<<<<<< HEAD
 			'icon-action_arrow' : '&#x65;',
 			'icon-recruit' : '&#x64;',
 			'icon-comment' : '&#x63;',
 			'icon-time' : '&#x62;',
 			'icon-project' : '&#x61;'
-=======
-			'icon-project' : '&#x61;',
-			'icon-time' : '&#x62;',
-			'icon-comment' : '&#x63;',
-			'icon-recruit' : '&#x64;'
->>>>>>> 1c748a586453c60818154e917b33c09575c2041a
 		},
 		els = document.getElementsByTagName('*'),
 		i, attr, c, el;
