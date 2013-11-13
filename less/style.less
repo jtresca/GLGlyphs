@@ -1,51 +1,219 @@
-@FontPath:    "../fonts";
-
 @font-face {
-	font-family: 'GLG_Icons';
-	src:url('@{FontPath}/GLG_Icons.eot');
-	src:url('@{FontPath}/GLG_Icons.eot?#iefix') format('embedded-opentype'),
-		url('@{FontPath}/GLG_Icons.woff') format('woff'),
-		url('@{FontPath}/GLG_Icons.ttf') format('truetype'),
-		url('@{FontPath}/GLG_Icons.svg#GLG_Icons') format('svg');
+	font-family: 'GLGlyphs';
+	src:url('fonts/GLGlyphs.eot');
+	src:url('fonts/GLGlyphs.eot?#iefix') format('embedded-opentype'),
+		url('fonts/GLGlyphs.ttf') format('truetype'),
+		url('fonts/GLGlyphs.woff') format('woff'),
+		url('fonts/GLGlyphs.svg#GLGlyphs') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
 
-/* Use the following CSS code if you want to use data attributes for inserting your icons */
-[data-icon]:before {
-	font-family: 'GLG_Icons';
-	content: attr(data-icon);
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'GLGlyphs';
 	speak: none;
+	font-style: normal;
 	font-weight: normal;
 	font-variant: normal;
 	text-transform: none;
 	line-height: 1;
+
+	/* Better Font Rendering =========== */
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
 
-/* Use the following CSS code if you want to have a class per icon */
-/*
-Instead of a list of all class selectors,
-you can use the generic selector below, but it's slower:
-[class*="icon-"] {
-*/
-.icon-action_arrow, .icon-recruit, .icon-comment, .icon-time, .icon-project {
-	font-family: 'GLG_Icons';
-	speak: none;
-	font-style: normal;
-	font-weight: normal;
-	font-variant: normal;
-	text-transform: none;
-	line-height: 1;
-	-webkit-font-smoothing: antialiased;
+.icon-project:before {
+	content: "\61";
 }
-
-.icon-action_arrow:before {
-	content: "\65";
+.icon-contract2:before {
+	content: "\68";
+}
+.icon-follow:before {
+	content: "\66";
+}
+.icon-edit:before {
+	content: "\67";
+}
+.icon-watch:before {
+	content: "\e603";
+}
+.icon-email:before {
+	content: "\69";
+}
+.icon-multi_project:before {
+	content: "\6a";
+}
+.icon-lock:before {
+	content: "\6b";
+}
+.icon-phone:before {
+	content: "\6c";
+}
+.icon-list:before {
+	content: "\6d";
+}
+.icon-group:before {
+	content: "\6e";
+}
+.icon-x:before {
+	content: "\6f";
+}
+.icon-check:before {
+	content: "\70";
 }
 .icon-recruit:before {
 	content: "\64";
+}
+.icon-company:before {
+	content: "\71";
+}
+.icon-print:before {
+	content: "\72";
+}
+.icon-send_email:before {
+	content: "\73";
+}
+.icon-beaker:before {
+	content: "\74";
+}
+.icon-action_arrow:before {
+	content: "\65";
+}
+.icon-cog:before {
+	content: "\75";
+}
+.icon-money:before {
+	content: "\76";
+}
+.icon-contract:before {
+	content: "\77";
+}
+.icon-expand:before {
+	content: "\78";
+}
+.icon-pin:before {
+	content: "\79";
+}
+.icon-profile:before {
+	content: "\7a";
+}
+.icon-tiles:before {
+	content: "\31";
+}
+.icon-refresh:before {
+	content: "\32";
+}
+.icon-caution:before {
+	content: "\33";
+}
+.icon-idea:before {
+	content: "\34";
+}
+.icon-star:before {
+	content: "\35";
+}
+.icon-download:before {
+	content: "\36";
+}
+.icon-add2:before {
+	content: "\37";
+}
+.icon-new_burst:before {
+	content: "\38";
+}
+.icon-dashboard:before {
+	content: "\30";
+}
+.icon-grid:before {
+	content: "\39";
+}
+.icon-lines:before {
+	content: "\3d";
+}
+.icon-tick:before {
+	content: "\60";
+}
+.icon-alert:before {
+	content: "\41";
+}
+.icon-share:before {
+	content: "\42";
+}
+.icon-check2:before {
+	content: "\43";
+}
+.icon-heart:before {
+	content: "\44";
+}
+.icon-forward:before {
+	content: "\45";
+}
+.icon-back:before {
+	content: "\46";
+}
+.icon-car:before {
+	content: "\47";
+}
+.icon-search:before {
+	content: "\48";
+}
+.icon-arrow_down:before {
+	content: "\49";
+}
+.icon-arrow_up:before {
+	content: "\4a";
+}
+.icon-arrow_left:before {
+	content: "\4b";
+}
+.icon-arrow_right:before {
+	content: "\4c";
+}
+.icon-activity:before {
+	content: "\4d";
+}
+.icon-multi_doc:before {
+	content: "\4e";
+}
+.icon-add_doc:before {
+	content: "\4f";
+}
+.icon-stop:before {
+	content: "\50";
+}
+.icon-people:before {
+	content: "\51";
+}
+.icon-info:before {
+	content: "\52";
+}
+.icon-chevron_right:before {
+	content: "\53";
+}
+.icon-help:before {
+	content: "\54";
+}
+.icon-chevron_down:before {
+	content: "\55";
+}
+.icon-add:before {
+	content: "\56";
+}
+.icon-delete:before {
+	content: "\57";
+}
+.icon-trash:before {
+	content: "\58";
+}
+.icon-paper:before {
+	content: "\59";
+}
+.icon-thumbs_up:before {
+	content: "\5a";
+}
+.icon-tick-right:before {
+	content: "\21";
 }
 .icon-comment:before {
 	content: "\63";
@@ -53,7 +221,3 @@ you can use the generic selector below, but it's slower:
 .icon-time:before {
 	content: "\62";
 }
-.icon-project:before {
-	content: "\61";
-}
-
