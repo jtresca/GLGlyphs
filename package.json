@@ -4,11 +4,12 @@
   "description": "GLG's own friendly take on Font Awesome",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "make"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/wballard/GLGlyphs.git"
+    "url": "git://github.com/glg/GLGlyphs.git"
   },
   "keywords": [
     "font",
