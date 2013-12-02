@@ -1318,6 +1318,26 @@
 				"name": "time",
 				"ligatures": ""
 			}
+		},
+		{
+			"icon": {
+				"paths": [
+					"M716.8 376.422v-274.022h102.4v-102.4h-614.4v102.4h102.4v275.354c-50.534 28.928-153.6 99.43-153.6 236.646v51.2h716.8v-51.2c0-139.264-99.021-209.715-153.6-237.978z",
+					"M460.8 665.6h102.4v358.4h-102.4v-358.4z"
+				],
+				"grid": 0,
+				"tags": [
+					"pin_fill"
+				]
+			},
+			"properties": {
+				"order": 67,
+				"id": 0,
+				"prevSize": 32,
+				"code": 58880,
+				"name": "pin_fill",
+				"ligatures": ""
+			}
 		}
 	],
 	"height": 1024,
@@ -1328,7 +1348,7 @@
 	},
 	"preferences": {
 		"fontPref": {
-			"prefix": "icon-",
+			"prefix": "glg-",
 			"metadata": {
 				"fontFamily": "GLGlyphs",
 				"designer": "Rik Catlow",
@@ -1355,6 +1375,8 @@
 		},
 		"historySize": 100,
 		"showCodes": true,
-		"gridSize": 16
+		"gridSize": 16,
+		"showGlyphs": true,
+		"showQuickUse": true
 	}
 }

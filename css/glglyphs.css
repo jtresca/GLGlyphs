@@ -1,217 +1,226 @@
 @font-face {
-  font-family: 'GLGlyphs';
-  src: url('../font/GLGlyphs.eot?#iefix') format('embedded-opentype'), url('../font/GLGlyphs.ttf') format('truetype'), url('../font/GLGlyphs.woff') format('woff'), url('../font/GLGlyphs.svg#GLGlyphs') format('svg');
-  font-weight: normal;
-  font-style: normal;
+	font-family: 'GLGlyphs';
+	src:url('font/GLGlyphs.eot');
+	src:url('font/GLGlyphs.eot?#iefix') format('embedded-opentype'),
+		url('font/GLGlyphs.ttf') format('truetype'),
+		url('font/GLGlyphs.woff') format('woff'),
+		url('font/GLGlyphs.svg#GLGlyphs') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
-[class^="glg-"],
-[class*=" glg-"] {
-  font-family: GLGlyphs;
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+[class^="glg-"], [class*=" glg-"] {
+	font-family: 'GLGlyphs';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
+
 .glg-project:before {
-  content: "\61";
+	content: "\61";
 }
 .glg-contract2:before {
-  content: "\68";
+	content: "\68";
 }
 .glg-follow:before {
-  content: "\66";
+	content: "\66";
 }
 .glg-edit:before {
-  content: "\67";
+	content: "\67";
 }
 .glg-watch:before {
-  content: "\e603";
+	content: "\e603";
 }
 .glg-email:before {
-  content: "\69";
+	content: "\69";
 }
 .glg-multi_project:before {
-  content: "\6a";
+	content: "\6a";
 }
 .glg-lock:before {
-  content: "\6b";
+	content: "\6b";
 }
 .glg-phone:before {
-  content: "\6c";
+	content: "\6c";
 }
 .glg-list:before {
-  content: "\6d";
+	content: "\6d";
 }
 .glg-group:before {
-  content: "\6e";
+	content: "\6e";
 }
 .glg-x:before {
-  content: "\6f";
+	content: "\6f";
 }
 .glg-check:before {
-  content: "\70";
+	content: "\70";
 }
 .glg-recruit:before {
-  content: "\64";
+	content: "\64";
 }
 .glg-company:before {
-  content: "\71";
+	content: "\71";
 }
 .glg-print:before {
-  content: "\72";
+	content: "\72";
 }
 .glg-send_email:before {
-  content: "\73";
+	content: "\73";
 }
 .glg-beaker:before {
-  content: "\74";
+	content: "\74";
 }
 .glg-action_arrow:before {
-  content: "\65";
+	content: "\65";
 }
 .glg-cog:before {
-  content: "\75";
+	content: "\75";
 }
 .glg-money:before {
-  content: "\76";
+	content: "\76";
 }
 .glg-contract:before {
-  content: "\77";
+	content: "\77";
 }
 .glg-expand:before {
-  content: "\78";
+	content: "\78";
 }
 .glg-pin:before {
-  content: "\79";
+	content: "\79";
 }
 .glg-profile:before {
-  content: "\7a";
+	content: "\7a";
 }
 .glg-tiles:before {
-  content: "\31";
+	content: "\31";
 }
 .glg-refresh:before {
-  content: "\32";
+	content: "\32";
 }
 .glg-caution:before {
-  content: "\33";
+	content: "\33";
 }
 .glg-idea:before {
-  content: "\34";
+	content: "\34";
 }
 .glg-star:before {
-  content: "\35";
+	content: "\35";
 }
 .glg-download:before {
-  content: "\36";
+	content: "\36";
 }
 .glg-add2:before {
-  content: "\37";
+	content: "\37";
 }
 .glg-new_burst:before {
-  content: "\38";
+	content: "\38";
 }
 .glg-dashboard:before {
-  content: "\30";
+	content: "\30";
 }
 .glg-grid:before {
-  content: "\39";
+	content: "\39";
 }
 .glg-lines:before {
-  content: "\3d";
+	content: "\3d";
 }
 .glg-tick:before {
-  content: "\60";
+	content: "\60";
 }
 .glg-alert:before {
-  content: "\41";
+	content: "\41";
 }
 .glg-share:before {
-  content: "\42";
+	content: "\42";
 }
 .glg-check2:before {
-  content: "\43";
+	content: "\43";
 }
 .glg-heart:before {
-  content: "\44";
+	content: "\44";
 }
 .glg-forward:before {
-  content: "\45";
+	content: "\45";
 }
 .glg-back:before {
-  content: "\46";
+	content: "\46";
 }
 .glg-car:before {
-  content: "\47";
+	content: "\47";
 }
 .glg-search:before {
-  content: "\48";
+	content: "\48";
 }
 .glg-arrow_down:before {
-  content: "\49";
+	content: "\49";
 }
 .glg-arrow_up:before {
-  content: "\4a";
+	content: "\4a";
 }
 .glg-arrow_left:before {
-  content: "\4b";
+	content: "\4b";
 }
 .glg-arrow_right:before {
-  content: "\4c";
+	content: "\4c";
 }
 .glg-activity:before {
-  content: "\4d";
+	content: "\4d";
 }
 .glg-multi_doc:before {
-  content: "\4e";
+	content: "\4e";
 }
 .glg-add_doc:before {
-  content: "\4f";
+	content: "\4f";
 }
 .glg-stop:before {
-  content: "\50";
+	content: "\50";
 }
 .glg-people:before {
-  content: "\51";
+	content: "\51";
 }
 .glg-info:before {
-  content: "\52";
+	content: "\52";
 }
 .glg-chevron_right:before {
-  content: "\53";
+	content: "\53";
 }
 .glg-help:before {
-  content: "\54";
+	content: "\54";
 }
 .glg-chevron_down:before {
-  content: "\55";
+	content: "\55";
 }
 .glg-add:before {
-  content: "\56";
+	content: "\56";
 }
 .glg-delete:before {
-  content: "\57";
+	content: "\57";
 }
 .glg-trash:before {
-  content: "\58";
+	content: "\58";
 }
 .glg-paper:before {
-  content: "\59";
+	content: "\59";
 }
 .glg-thumbs_up:before {
-  content: "\5a";
+	content: "\5a";
 }
 .glg-tick-right:before {
-  content: "\21";
+	content: "\21";
 }
 .glg-comment:before {
-  content: "\63";
+	content: "\63";
 }
 .glg-time:before {
-  content: "\62";
+	content: "\62";
+}
+.glg-pin_fill:before {
+	content: "\e600";
 }
