@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'GLGlyphs';
-	src:url('font/GLGlyphs.eot');
-	src:url('font/GLGlyphs.eot?#iefix') format('embedded-opentype'),
-		url('font/GLGlyphs.ttf') format('truetype'),
-		url('font/GLGlyphs.woff') format('woff'),
-		url('font/GLGlyphs.svg#GLGlyphs') format('svg');
+	src:url('../font/GLGlyphs.eot');
+	src:url('../font/GLGlyphs.eot?#iefix') format('embedded-opentype'),
+		url('../font/GLGlyphs.ttf') format('truetype'),
+		url('../font/GLGlyphs.woff') format('woff'),
+		url('../font/GLGlyphs.svg#GLGlyphs') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
